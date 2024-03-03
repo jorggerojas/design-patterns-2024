@@ -107,6 +107,9 @@ git checkout juan-perez
 ```
 
 Nota que no se usa el `-b` para movernos a una rama existente, ya que este comando es para CREAR una rama y movernos a ella.
+
+## Publicar la rama local en el repositorio remoto
+
 Para publicar la rama en el repositorio remoto (GitHub), ejecuta el siguiente comando en la terminal:
 
 ```bash
