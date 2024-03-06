@@ -1,5 +1,14 @@
 # design-patterns-2024
 
+## Clases
+
+### Clase 1
+
+<details>
+  <summary>
+    Click para ver más
+  </summary>
+
 ## Herramientas
 
 - [Node.js](https://nodejs.org/es/)
@@ -138,3 +147,11 @@ git push origin NOMBRE_DE_LA_RAMA
 
 Ten en cuenta que debes de reemplazar `NOMBRE_DEL_ARCHIVO` por el nombre del archivo que deseas subir.
 Con estos comandos, tus cambios se subirán al repositorio remoto (GitHub) y estarán disponibles para que los demás puedan verlos.
+  
+</details>
+
+
+### Clase 2
+<details>
+  <summary>Click para ver más</summary>
+</details>
