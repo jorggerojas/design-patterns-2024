@@ -1,0 +1,24 @@
+{
+  "name": "design-patterns-2024",
+  "version": "1.0.0",
+  "description": "## Herramientas",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "start:dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorggerojas/design-patterns-2024.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorggerojas/design-patterns-2024/issues"
+  },
+  "homepage": "https://github.com/jorggerojas/design-patterns-2024#readme",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
+}
