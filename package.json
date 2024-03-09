@@ -2,7 +2,7 @@
   "description": "",
   "name": "design-patterns-2024",
   "version": "1.0.0",
-  "main": "main.js",
+  "type": "module",
   "scripts": {
     "start": "node main.js",
     "start:dev": "node index.js"
