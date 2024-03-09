@@ -1,0 +1,17 @@
+{
+  "name": "design-patterns-2024",
+  "version": "1.0.0",
+  "description": "## Herramientas",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "start:dev": "node index.js",
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
+}
