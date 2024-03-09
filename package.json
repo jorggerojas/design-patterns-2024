@@ -1,0 +1,15 @@
+{
+  "name": "design-patterns-2024",
+  "version": "1.0.0",
+  "description": "- [Node.js](https://nodejs.org/es/)\r - [Visual Studio Code](https://code.visualstudio.com/)\r - [Git](https://git-scm.com/) * (Opcional pero recomendado)\r - [GitHub](https://github.com)",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
+}
