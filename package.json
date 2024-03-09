@@ -1,11 +1,16 @@
 {
-  "name": "introduction.js",
+  "name": "patronesdiseno",
   "version": "1.0.0",
-  "description": "",
-  "main": "introduction.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js",
+    "start:dev": "node index.js"
   },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
 }
