@@ -1,0 +1,17 @@
+{
+  "name": "proyect_npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type":"module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
+}
