@@ -1,0 +1,15 @@
+{
+  "name": "design-patterns-2024",
+  "version": "1.0.0",
+  "description": "## Herramientas",
+  "main": "array-filtering.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "javascripting": "^2.7.4"
+  }
+}
