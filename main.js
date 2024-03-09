@@ -1,3 +1,7 @@
-import randomWords from 'random-words'
+import {generate} from 'random-words'
 
-console.log(randomWords.generate(2));
+console.log(generate(10));
+
+/*
+1. 20 palabras => filtren
+*/
