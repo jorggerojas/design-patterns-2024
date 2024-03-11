@@ -316,6 +316,7 @@ Puedes hacer uso del mismo paquete o de los métodos ya vistos en clase.
     - También puedes hacer uso del método `concat` para Arrays. Aquí te dejo la referencia del método:
       - [Array.prototype.concat()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
     - Puedes hacer uso de cualquiera de los métodos mencionados, pero recuerda que el objetivo es añadir al inicio y al final de todas las palabras la palabra "¡Hola!".
+    - Ejemplo ["hola","uno, "dos", "tres" ,"hola"]
 11. Genera 50 palabras aleatorias, por cada pabra añadirás al array la misma palabra pero en mayúsuculas, y finalmente imprime el resultado en la terminal. Por ejemplo, dado el arreglo ["hola", "mundo"], el resultado sería ["hola", "HOLA", "mundo", "MUNDO"]. Para este ejercicio, puedes hacer uso del método `toUpperCase` para Strings. Aquí te dejo la referencia del método:
     - [String.prototype.toUpperCase()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
     - [Array.prototype.push()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
