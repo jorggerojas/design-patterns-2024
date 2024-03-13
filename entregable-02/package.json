@@ -1,0 +1,36 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "prueba",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node index.js",
+    "uno": "node 01-ej.js",
+    "dos": "node 02-ej.js",
+    "tres": "node 03-ej.js",
+    "cuatro": "node 04-ej.js",
+    "cinco": "node 05-ej.js",
+    "seis": "node 06-ej.js",
+    "siete": "node 07-ej.js",
+    "ocho": "node 08-ej.js",
+    "nueve": "node 09-ej.js",
+    "diez": "node 10-ej.js",
+    "once": "node 11-ej.js",
+    "doce": "node 12-ej.js",
+    "trece": "node 13-ej.js",
+    "catorce": "node 14-ej.js",
+    "quince": "node 15-ej.js",
+    "dieciseis": "node 16-ej.js",
+    "diecisiete": "node 17-ej.js",
+    "dieciocho": "node 18-ej.js",
+    "diecinueve": "node 19-ej.js",
+    "veinte": "node 20-ej.js"
+  },
+  "keywords": [],
+  "author": "Nath Dos Santos",
+  "license": "ISC",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
+}
