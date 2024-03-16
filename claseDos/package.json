@@ -1,0 +1,15 @@
+{
+  "name": "pd",
+  "version": "1.0.0",
+  "description": "Ejercicios patrones de diseño",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "author": "Karen Cervantes",
+  "license": "ISC",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
+}
