@@ -1,0 +1,38 @@
+{
+  "name": "segunda-clase",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "uno" : "node uno.js",
+    "dos" : "node dos.js",
+    "tres" : "node tres.js",
+    "cuatro" : "node cuatro.js",
+    "cinco" : "node cinco.js",
+    "seis" : "node seis.js",
+    "siete" : "node siete.js",
+    "ocho" : "node ocho.js",
+    "nueve" : "node nueve.js",
+    "diez" : "node diez.js",
+    "once" : "node once.js",
+    "doce" : "node doce.js",
+    "trece" : "node trece.js",
+    "catorce" : "node catorce.js",
+    "quince" : "node quince.js",
+    "dieseis" : "node dieseis.js",
+    "diesiete" : "node diesiete.js",
+    "diezocho" : "node diezocho.js",
+    "dieznueve" : "node dieznueve.js",
+    "veinte" : "node veinte.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
+}
