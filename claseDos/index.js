@@ -1,11 +1,6 @@
 import { generate } from "random-words";
 
-const palabras = generate(50);
-let resultado = []
+const palabras = generate(50)
+const encontrar = palabras.find((element) => element==='army')
 
-palabras.forEach((palabra)=>{
-    resultado.push(palabra)
-    resultado.push(palabra.toUpperCase())
-})
-
-console.log(resultado)
+console.log(encontrar)
