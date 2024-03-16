@@ -2,11 +2,12 @@ import { generate } from "random-words";
 
 const palabras = generate(20);
 const filtradas = palabras.filter(palabra => {
-    if(palabra.length >= 6){
-        return false
+    if(palabra.includes('a')){
+        console.log(palabra.replace('a', 'YES'));
+        return
     }else{
-        return true
+        return palabra
     }
 })
 
-console.log(filtradas)
+console.log(palabras)
