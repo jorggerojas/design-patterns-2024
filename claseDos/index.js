@@ -2,7 +2,7 @@ import { generate } from "random-words";
 
 const palabras = generate(20);
 const filtradas = palabras.filter(palabra => {
-    if(palabra.includes('s')||palabra.includes('r')){
+    if(palabra.length >= 6){
         return false
     }else{
         return true
