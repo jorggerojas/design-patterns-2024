@@ -3,7 +3,28 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "main": "node main.js"
+    "main": "node main.js",
+    "aleatorias": "node 01_20PalabrasAle.js",
+    "fila": "node 02_20PalabraFila.js",
+    "sinSsinR": "node 03_SinSniR.js",
+    "seis": "node 04_noMayor6.js",
+    "yes": "node 05_yes.js",
+    "no": "node 06_no.js",
+    "alfabeto": "node 07_alfabeto.js",
+    "alreves": "node 08_alreves.js",
+    "sinPriniUl": "node 09_niPrimeraniUltima.js",
+    "hola": "node 10_hola.js",
+    "mayusculas": "node 11_mayusculas.js",
+    "army": "node 12_army.js",
+    "string": "node 13_string.js",
+    "stringMayusculas": "node 14_stringMayusculas.js",
+    "objeto": "node 15_objeto.js",
+    "longitud": "node 16_objetoLongitud.js",
+    "longitudMayor": "node 17_longitudMayor6.js",
+    "holaAdiosMundo": "node 18_holaMundoAdios.js",
+    "tamano": "node 19_tamano.js",
+    "cantidad": "node 20_cantidad.js"
+
   },
   "keywords": [],
   "author": "",
@@ -11,5 +32,8 @@
   "description": "",
   "dependencies": {
     "random-words": "^2.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2"
   }
 }
