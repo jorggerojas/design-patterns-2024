@@ -1,3 +1,5 @@
 import { generate } from "random-words";
 
-console.log(generate(1));
+const palabras = generate(20);
+
+palabras.forEach(palabra => console.log(palabra))

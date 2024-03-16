@@ -4,7 +4,8 @@
   "description": "Ejercicios patrones de diseño",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "ejercicio2": "node index.js"
   },
   "type": "module",
   "author": "Karen Cervantes",
