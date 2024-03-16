@@ -1,7 +1,8 @@
 import { generate } from "random-words";
 
 const palabras = generate(50)
-const resultado = palabras.map((palabra) => {
+const filtradas = palabras.filter((elemento)=>elemento.length>=6)
+const resultado = filtradas.map((palabra) => {
     const objeto = { [palabra] : palabra.length }
 
     return objeto
