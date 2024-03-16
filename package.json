@@ -3,8 +3,23 @@
   "version": "1.0.0",
   "description": "- [Node.js](https://nodejs.org/es/)\r - [Visual Studio Code](https://code.visualstudio.com/)\r - [Git](https://git-scm.com/) * (Opcional pero recomendado)\r - [GitHub](https://github.com)",
   "main": "accessing-array-values.js",
+  "type":"module",
   "scripts": {
+    "start":"node main.js",
+    "aleatorias": "node scripts/aleatorias.js",
+    "a2":"node scripts/a2.js",
+    "a3":"node scripts/a3.js",
+    "a4":"node scripts/a4.js",
+    "a5":"node scripts/a5.js",
+    "a6":"node scripts/a6.js",
+    "a7":"node scripts/a7.js",
+    "a8":"node scripts/a8.js",
+    "a9":"node scripts/a9.js",
+    "a10":"node scripts/a10.js",
+    "a11":"node scripts/a11.js",
+    "a12":"node scripts/a12.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "keywords": [],
   "author": "",
