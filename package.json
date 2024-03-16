@@ -1,0 +1,38 @@
+{
+    "name": "design-patterns-2024",
+    "version": "1.0.0",
+    "description": "Ejercicios Entregable 2",
+    "main": "accessing-array-values.js",
+    "type": "module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "saludo": "echo Hola, mundo!",
+      "ejercicio1": "node index.js ejercicio1",
+      "ejercicio2": "node index.js ejercicio2",
+      "ejercicio3": "node index.js ejercicio3",
+      "ejercicio4": "node index.js ejercicio4",
+      "ejercicio5": "node index.js ejercicio 5",
+      "ejercicio6": "node index.js ejercicio 6",
+      "ejercicio7": "node index.js ejercicio 7",
+      "ejercicio8": "node index.js ejercicio 8",
+      "ejercicio9": "node index.js ejercicio 9",
+      "ejercicio10": "node index.js ejercicio 10",
+      "ejercicio11": "node index.js ejercicio 11",
+      "ejercicio12": "node index.js ejercicio 12",
+      "ejercicio13": "node index.js ejercicio 13",
+      "ejercicio14": "node index.js ejercicio 14",
+      "ejercicio15": "node index.js ejercicio 15",
+      "ejercicio16": "node index.js ejercicio 16",
+      "ejercicio17": "node index.js ejercicio 17",
+      "ejercicio18": "node index.js ejercicio 18",
+      "ejercicio19": "node index.js ejercicio 19",
+      "ejercicio20": "node index.js ejercicio "
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "random-words": "^2.0.1"
+    }
+  }
+  
