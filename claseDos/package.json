@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "ejercicio15": "node index.js"
+    "ejercicio16": "node index.js"
   },
   "type": "module",
   "author": "Karen Cervantes",
