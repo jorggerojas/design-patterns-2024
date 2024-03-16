@@ -1,0 +1,36 @@
+{
+  "type": "module",
+  "name": "segunda-clase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Ejercicio_uno": "node Ejercicio_uno.js",
+    "Eje_dos" : "node Eje_dos.js",
+    "Eje_tres" : "node Eje_tres.js",
+    "Eje_cuatro" : "node Eje_cuatro.js",
+    "Eje_cinco": "node Eje_cinco.js",
+    "Eje_seis": "node Eje_seis.js",
+    "Eje_siete": "node Eje_siete.js",
+    "Eje_ocho": "node Eje_ocho.js",
+    "Eje_nueve": "node Eje_nueve.js",
+    "Eje_dies": "node Eje_dies.js",
+    "Eje_once": "node Eje_once.js",
+    "Eje_doce": "node Eje_doce.js",
+    "Eje_trece": "node Eje_trece.js",
+    "Eje_catorce": "node Eje_catorce.js",
+    "Eje_quince": "node Eje_quince.js",
+    "Eje_dseis": "node Eje_dseis.js",
+    "Eje_dsiete": "node Eje_dsiete.js",
+    "Eje_docho": "node Eje_docho.js",
+    "Eje_dnueve": "node Eje_dnueve",
+    "Eje_veinte":"node Eje_veinte"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dependencies": "^0.0.1",
+    "random-words": "^2.0.1"
+  }
+}
