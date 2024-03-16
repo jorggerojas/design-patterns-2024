@@ -1,7 +1,10 @@
 import { generate } from "random-words";
 
-const palabras = generate(20);
-const filtradas = palabras.slice(1,-1)
+const palabras = generate(50);
+const hola = ['¡Hola!']
 
-console.log(palabras)
-console.log(filtradas)
+const resultado = hola.concat(palabras)
+const resultadofinal = resultado.concat(hola)
+
+
+console.log(resultadofinal)
