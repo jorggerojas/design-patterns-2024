@@ -1,10 +1,10 @@
 import { generate } from "random-words";
 
 const palabras = generate(50)
-let resultado = []
+const resultado = palabras.map((palabra) => {
+    const objeto = { [palabra] : palabra.toUpperCase() }
 
-palabras.forEach((palabra)=>{
-    resultado.push(palabra.toUpperCase())
+    return objeto
 })
 
-console.log(resultado.join(' '))
+console.log(resultado)
