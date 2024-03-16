@@ -1,14 +1,9 @@
 import { generate } from "random-words";
 
 const palabras = generate(50)
-var resultado = palabras.map(function(obj){
-    if(obj.length === 4){
-        var rObj = 'HOLA'
-    }else if(obj.length>4){
-        var rObj = 'MUNDO'
-    }else{
-        var rObj = 'ADIOS'
-    }
-    return rObj;
+let resultado = []
+palabras.forEach((palabra) => {
+    resultado.push(palabra.length)
 })
-console.log (resultado)
+console.log(palabras)
+console.log(resultado)
