@@ -1,10 +1,11 @@
 import { generate } from "random-words";
 
 const palabras = generate(50);
-const hola = ['¡Hola!']
+let resultado = []
 
-const resultado = hola.concat(palabras)
-const resultadofinal = resultado.concat(hola)
+palabras.forEach((palabra)=>{
+    resultado.push(palabra)
+    resultado.push(palabra.toUpperCase())
+})
 
-
-console.log(resultadofinal)
+console.log(resultado)
