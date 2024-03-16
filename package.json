@@ -1,0 +1,38 @@
+{
+  "name": "clase02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "saludo": "echo Hola, mundo!",
+    "ej_01": "node 01_VeintePalabras.js",
+    "ej_02": "node 02_VeinteLineas.js",
+    "ej_03": "node 03_PalabrasFiltradas.js",
+    "ej_04": "node 04_PlabrasFiltradasLeng.js",
+    "ej_05": "node 05_ReplaceYes.js",
+    "ej_06": "node 06_Replace6Letras.js",
+    "ej_07": "node 07_OrdenarAlfabet.js",
+    "ej_08": "node 08_OrdenReverso.js",
+    "ej_09": "node 09_EliminarPrimUltim.js",
+    "ej_10": "node 10_Aniadir.js",
+    "ej_11": "node 11_AniadirUpper.js",
+    "ej_12": "node 12_BuscarPalabra.js",
+    "ej_13": "node 13_UnString.js",
+    "ej_14": "node 14_UnStringUpper.js",
+    "ej_15": "node 15_ArrayObjets.js",
+    "ej_16": "node 16_ArrayObjetsLeng.js",
+    "ej_17": "node 17_ArrObjt6L.js",
+    "ej_18": "node 18_CantidadLetrs.js",
+    "ej_19": "node 19_ArrdeTamanios.js",
+    "ej_20": "node 20_ObjtsLeng.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  },
+  "type": "module"
+}
