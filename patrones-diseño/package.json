@@ -1,0 +1,22 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "scripts": {
+    "singleton": "ts-node creacional/singleton.ts",
+    "strategy": "ts-node comportamiento/strategy/pattern.ts",
+    "observer": "ts-node comportamiento/strategy/observer.ts",
+    "chainResp": "ts-node comportamiento/strategy/ChainOfResponsability.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
+
