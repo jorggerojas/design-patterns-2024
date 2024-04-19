@@ -1,16 +1,39 @@
 {
-  "name": "design-patterns-2024",
-  "version": "1.0.0",
-  "description": "- [Node.js](https://nodejs.org/es/)\r - [Visual Studio Code](https://code.visualstudio.com/)\r - [Git](https://git-scm.com/) * (Opcional pero recomendado)\r - [GitHub](https://github.com)",
-  "type": "module",
-  "main": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "random-words": "^2.0.1"
-  }
+    "name": "typescript",
+    "version": "1.0.0",
+    "description": "- [Node.js](https://nodejs.org/es/)\r - [Visual Studio Code](https://code.visualstudio.com/)\r - [Git](https://git-scm.com/) * (Opcional pero recomendado)\r - [GitHub](https://github.com)",
+    "type": "commonjs",
+    "scripts": {
+        "ejercicio-1": "node ./randomWords/main.js G_20words",
+        "ejercicio-2": "node ./randomWords/main.js G_20words_line",
+        "ejercicio-3": "node ./randomWords/main.js G_20words_filter_RnS",
+        "ejercicio-4": "node ./randomWords/main.js G_20words_LSix",
+        "ejercicio-5": "node ./randomWords/main.js G_20words_Replace_a2Yes",
+        "ejercicio-6": "node ./randomWords/main.js G_20words_Replace_6toNo",
+        "ejercicio-7": "node ./randomWords/main.js G_20words_orderAlphabet",
+        "ejercicio-8": "node ./randomWords/main.js G_20words_orderInverted",
+        "ejercicio-9": "node ./randomWords/main.js G_20words_Eliminate",
+        "ejercicio-10": "node ./randomWords/main.js G_50words_joinHola",
+        "ejercicio-11": "node ./randomWords/main.js G_50words_joinUpper",
+        "ejercicio-12": "node ./randomWords/main.js G_50words_findArmy",
+        "ejercicio-13": "node ./randomWords/main.js G_50words_join",
+        "ejercicio-14": "node ./randomWords/main.js G_50words_UpperJoin",
+        "ejercicio-15": "node ./randomWords/main.js G_50words_Object_PropertiUpper",
+        "ejercicio-16": "node ./randomWords/main.js G_50words_Object_PropertiLength",
+        "ejercicio-17": "node ./randomWords/main.js G_50words_Object_Lenght6",
+        "ejercicio-18": "node ./randomWords/main.js G_50words_filterArray",
+        "ejercicio-19": "node ./randomWords/main.js G_50words_ReplaceToLenght",
+        "ejercicio-20": "node ./randomWords/main.js G_50words_Object_Reduce"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "random-words": "^2.0.1",
+        "ts-node": "^10.9.2"
+    },
+    "main": "main.js"
 }
