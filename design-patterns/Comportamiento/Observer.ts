@@ -1,5 +1,5 @@
-/*interface Observer{
-    update: void;
+interface Observer{
+    update(): void;
 }
 
 interface Observable{
@@ -15,7 +15,7 @@ class Twitch implements Observable{
         this.subscribers.push(observer);
     }
     dettach(observer: Observer): void {
-        throw new Error("Method not implemented.");
+        
     }
     notify(): void {
         for(let subscriber of this.subscribers){
@@ -46,5 +46,3 @@ const s3 = new Subscriber(twitch);
 twitch.attach(s1);
 twitch.attach(s2);
 twitch.attach(s3);
-
-*/
