@@ -12,7 +12,7 @@ interface ConfigToken{
 
 class AuthService {
     #client: Client;
-
+    
     private static instance: AuthService;
     private static authToken: string;
 
@@ -35,7 +35,7 @@ class AuthService {
         if(!AuthService.instance){
             this.getInstance();
         }
-        
+
         const {token} = AuthService.instance.client;
 
         const generatedToken = (Math.random()+1).toString(36).substring(3);
