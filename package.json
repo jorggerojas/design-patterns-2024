@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "build": "npx tsc --build",
     "main": "node main.js",
     "aleatorias": "node 01_20PalabrasAle.js",
     "fila": "node 02_20PalabraFila.js",

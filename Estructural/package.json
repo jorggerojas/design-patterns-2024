@@ -1,0 +1,20 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc --build",
+    "start": "npm run build && node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Bridge": "npm run build && node Bridge.js",
+    "Adapter": "npm run build && node Adapter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
