@@ -5,11 +5,12 @@
   "type": "commonjs",
   "scripts": {
     "singleton": "ts-node creacional/singleton.ts",
-    "strategy": "ts-node comportamiento/strategy/pattern.ts",
-    "observer": "ts-node comportamiento/strategy/observer.ts",
+    "strategy": "ts-node comportamiento/strategy/Strategy.ts",
+    "observer": "ts-node comportamiento/strategy/Observer.ts",
     "chainResp": "ts-node comportamiento/strategy/ChainOfResponsability.ts",
     "adapter": "ts-node estructural/Adapter.ts",
-    "bridge": "ts-node estructural/Bridge.ts"
+    "bridge": "ts-node estructural/Bridge.ts",
+    "shape-strategy": "ts-node ../entregable-04/strategyFigures.ts"
   },
   "keywords": [],
   "author": "",
