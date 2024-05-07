@@ -2,7 +2,7 @@
  * Significa que las subclases deben ser intercambiables con su clase padre sin afectar de manera negativa al programa
  */
 
-class Adult {
+class Person {
     name: string
     age: number
     height: number
@@ -11,14 +11,40 @@ class Adult {
     }
 }
 
-class Kid extends Adult {
+class Adult  extends Person{
+    name: string
+    age: number
+    height: number
+    walksDay(distance: number, time: number) {
+        //una persona camina cierta distancia
+    }
+
+    works(){
+        //un adulto trabaja
+    }
+}
+
+class Kid extends Person {
     name: string
     age: number
     height: number
     walksDay(distance: number, time: number): void {
         //un niño tambien camina cierta distancia
     }
+
+    attendsSchool() {
+        //un niño va a la escuela
+    }
 }
 
-const person = new Adult; 
-const person2 = new Kid; // Tienen el mismo comportamiento y ambas clases se pueden sustituir entre si
+//prueba de Liskov
+
+function stepsWalk(person: Person) {
+    //cuanto camina una persona
+}
+
+const father = new Adult;
+const child = new Kid;
+
+stepsWalk(father); 
+stepsWalk(child);
