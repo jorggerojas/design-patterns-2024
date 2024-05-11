@@ -1,28 +1,29 @@
 class Target {
     public request(): string {
-        return 'Target: The default target\'s behavior.';
+        return 'Target: Default Target.';
     }
 }
 
-class Adaptee{
-    public specificRequest(): string{
-        return '.eetpadA eht fo roivaheb laicepS';
+class Adaptee {
+    public specificRequest(): string {
+        return 'sodot a aloH';
     }
-
 }
 
-class Adapter extends Target{
-    constructor(private adaptee: Adaptee){
+class Adapter extends Target {
+    constructor(private adaptee: Adaptee) {
         super();
         this.adaptee = adaptee;
     }
-    public request() : string{
-        const result = this.adaptee.specificRequest().split('').reverse().join('');
-        return `Adapter: (TRANSLATED) ${result}`;
+
+    public request(): string {
+        const result = this.adaptee.specificRequest();
+        const resultAdapted = result.split('').reverse().join('');
+        return `Adapter: (Traduccion) ${resultAdapted}`;
     }
 }
 
-function clientCode( target: Target){
+function clientCode(target: Target) {
     console.log(target.request());
 }
 
