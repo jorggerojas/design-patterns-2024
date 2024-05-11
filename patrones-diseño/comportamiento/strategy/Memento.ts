@@ -64,5 +64,66 @@ class ConcreteMemento implements Memento {
 }
 
 class Caretaker {
+    private mementos: Memento[] = [];
+    private originator: Originator;
 
+    constructor(originator: Originator) {
+        this.originator = originator;
+    }
+
+    backup(): void {
+        console.log('Caretaker: está guardando el estado de Originator');
+        this.mementos.push(this.originator.save())
+    }
+
+    undo(): void {
+        if(!this.mementos.length) {
+            return;
+        }
+
+
+        const memento = this.mementos.pop();
+
+        if(!memento) {
+            return;
+        }
+        console.log('Caretaker: Restaura el state hacia', memento?.getName());
+        this.originator.restore(memento);
+    }
+
+    showHistory(): void {
+        console.log('Caretaker: lista de mementos');
+        for(const memento of this.mementos) {
+            console.log(memento.getName());
+        }
+    }
 }
+
+/**
+ * Client Code
+ */
+
+const originator = new Originator('super-state-initial-super-turbo');
+const caretaker = new Caretaker(originator);
+
+caretaker.backup();
+originator.doSomething();
+
+caretaker.backup();
+originator.doSomething();
+
+caretaker.backup();
+originator.doSomething();
+
+caretaker.backup();
+originator.doSomething();
+
+console.log('\n');
+
+caretaker.undo();
+caretaker.undo();
+caretaker.undo();
+
+console.log('\n');
+
+caretaker.showHistory();
