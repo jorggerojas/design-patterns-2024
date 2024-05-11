@@ -1,15 +1,18 @@
 {
-  "name": "design-patterns-2024",
+  "name": "typescript",
   "version": "1.0.0",
-  "description": "## Herramientas",
-  "main": "array-filtering.js",
+  "description": "",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node main.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  },
   "dependencies": {
-    "javascripting": "^2.7.4"
+    "ts-node": "^10.9.2"
   }
 }
