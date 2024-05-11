@@ -12,7 +12,7 @@ class Originator{
         console.log('Original State: ',state);
     }
 
-    doSomethin(): void{
+    doSomething(): void{
         console.log('Esta haciendo algo importante');
         this.state = this.generateRandomString(50);
         console.log('Originator: el state cambio: ', this.state);
@@ -32,9 +32,9 @@ class Originator{
         return randomString;
     }
 
-    /*public save(): Memento{
+    public save(): Memento{
         return new ConcreteMemento(this.state);
-    }*/
+    }
 
     public restore(memento: Memento): void{
         this.state = memento.getState();
@@ -46,10 +46,9 @@ class ConcreteMemento implements Memento{
     private state: string;
     private date: string;
 
-    constructor(state: string, date: string){
+    constructor(state: string){
         this.state = state;
-        this.date = date;
-        console.log('Original State: ',state);
+        this.date = new Date().toISOString();
     }
 
 
@@ -66,5 +65,55 @@ class ConcreteMemento implements Memento{
 }
 
 class Caretaker{
+    private mementos: Memento[] = [];
+    private originator: Originator;
 
+    constructor(originator: Originator){
+        this.originator = originator;
+    }
+
+    backup(): void{
+        console.log('Caretake: esta guardando el estado de Originator');
+        this.mementos.push(this.originator.save());
+    }
+
+    undo(): void{
+        if(!this.mementos.length){
+            return;
+        }
+
+        const memento = this.mementos.pop();
+        if(!memento){
+            return;
+        }
+
+        console.log('Caretaker: Restaurar el state hacia ', memento?.getName());
+        this.originator.restore(memento);
+    }
+
+    showHistory(): void{
+        console.log('Caretaker: lista de mementos: \n');
+        for(const memento of this.mementos){
+            console.log(memento.getName());
+        }
+    }
 }
+
+const originator = new Originator('super-state-initial-super-turbo');
+const caretaker = new Caretaker(originator);
+
+caretaker.backup();
+originator.doSomething();
+
+caretaker.backup();
+originator.doSomething();
+
+caretaker.backup();
+originator.doSomething();
+
+caretaker.backup();
+originator.doSomething();
+
+console.log('\n');
+
+caretaker.showHistory();
