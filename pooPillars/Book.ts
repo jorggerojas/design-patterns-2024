@@ -11,7 +11,7 @@ class Libro {
         this.prestadoA = null;
         this.historialPrestamos = [];
     }
-    
+
 
     obtenerTitulo(): string {
         return this.titulo;

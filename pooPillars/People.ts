@@ -49,7 +49,7 @@ class Profesor extends Person {
 
     // Método único para Profesor
     investigar(): void {
-        console.log(`${this.nombre} está investigando sobre nuevos métodos de enseñanza.`);
+        console.log(`${this.nombre} está investigando sobre nuevos patrones de diseño.`);
     }
 }
 
