@@ -1,50 +1,68 @@
-interface TransportStrategy{
-
-}
-
-class Bus implements TransportStrategy{
-
-}
-
-class Bike implements TransportStrategy{
-
-}
-
-class Car implements TransportStrategy{
-
-    static selectTransport(): void {
-        throw new Error("Method not implement.");
+interface TransportStrategy {
+    selectTransport(): void;
+  }
+  
+  class Bus implements TransportStrategy {
+    selectTransport(): void {
+      throw new Error("Method not implemented.");
     }
-
-}
-
-class TransportContext {
+  }
+  
+  class Bike implements TransportStrategy {
+    selectTransport(): void {
+      throw new Error("Method not implemented.");
+    }
+  }
+  
+  class Car implements TransportStrategy {
+    selectTransport(): void {
+      throw new Error("Method not implemented.");
+    }
+  }
+  
+  class TransportContext {
     transportStrategy: TransportStrategy;
-
+  
     constructor(strategy: TransportStrategy){
-        this.transportStrategy = strategy;
+      this.transportStrategy = strategy;
     }
-
-    chooseTransport(): void{
-        this.transportStrategy.selectTransport();
+  
+    chooseTransport(): void {
+      this.transportStrategy.selectTransport();
     }
-}
-
-class TransportMain {
-    static transportSelected: TransportStrategy;
-
+  }
+  
+  class TransportMain {
+  
+    static trasportSelected: TransportStrategy;
+  
     static main(mode: string): void {
-        const modes: { [key: string]: TransportStrategy } = {
-            'bus': new Bus(),
-            'bike': new Bike(),
-            'car': new Car(),
-        }
-        new TransportMain.selectTransport( strategyMode: modes[mode] as TransportStrategy);       
+      const modes: { [key: string]: TransportStrategy } = {
+        'bus': new Bus(),
+        'bike': new Bike(),
+        'car': new Car(),
+      };
+  
+      const modeSelected = modes[mode];
+  
+      TransportMain.selectTransport(modeSelected);
     }
-
-    static selectTransport(strategyMode: TransportStrategy){
-        this.transportSelected = strategyMode;
-        const transportContext = new TransportContext( strategy: strategyMode );
-        transportContext.chooseTransport();
+  
+    static selectTransport(strategyMode: TransportStrategy) {
+      this.trasportSelected = strategyMode;
+      const transportContext = new TransportContext(strategyMode);
+      transportContext.chooseTransport();
     }
-}
+  
+    static createRoute(a: string, b: string){
+      const transport = this.trasportSelected;
+  
+     // calcular el destino con el transporte seleccionado
+    }
+  
+  }
+  
+  TransportMain.main('bus');
+  TransportMain.createRoute('QRO', 'CDMX');
+  
+  
