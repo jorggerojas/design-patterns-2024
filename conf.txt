@@ -6,6 +6,9 @@ npm run scejemplo
 
 npx ts-node ruta/ruta.ts
 
-git add
-git commit -m "mensaje"
-git push
+git clone https://github.com/gaelv01/caravan-bus-management     //clonar repo
+
+git checkout GaelPosada01       //acceder auna rama
+git add .    //encapsular todos los archivos y carpetas
+git commit -m "Reorganizacion de archivos"    //descripcion de la pullrequest
+git push origin GaelPosada01     //subir los archivos a la rama
