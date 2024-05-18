@@ -1,0 +1,11 @@
+cd carpeta_name
+npm init -y
+agragar comandos a scripts
+"scejemplo": "ts-node ruta/ruta.ts" 
+npm run scejemplo
+
+npx ts-node ruta/ruta.ts
+
+git add
+git commit -m "mensaje"
+git push
