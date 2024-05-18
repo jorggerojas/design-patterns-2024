@@ -1,0 +1,53 @@
+interface Implementation {
+    operationImplementation(): string;
+}
+
+class Abstraction {
+    protected implementation: Implementation;
+
+    constructor(implementation: Implementation) {
+        this.implementation = implementation;
+    }
+
+    operation(): string {
+        const result = this.implementation.operationImplementation();
+
+        return `Base Abstraction: ${result}`
+    }
+}
+
+class ExtendedAbstraction extends Abstraction {
+
+    public operation(): string{
+        const result = this.implementation.operationImplementation();
+
+        return `ExtendedAbstraction: ${result}`
+    }
+}
+
+class ConcrateImplementationA implements Implementation {
+    operationImplementation(): string {
+        return 'ConcrateImplementationA: este es el reultado de la plataforma A.'
+        throw new Error("Method not implemented.")
+    }
+}
+
+class ConcrateImplementationB implements Implementation {
+    operationImplementation(): string {
+        return 'ConcrateImplementationB: este es el reultado de la plataforma B.'
+        throw new Error("Method not implemented.")
+    }
+}
+
+
+function clientCodeBridge(abstraction: Abstraction) {
+    console.log(abstraction.operation());
+}
+
+const implementation = new ConcrateImplementationA();
+const abstraction = new Abstraction(implementation);
+clientCodeBridge(abstraction);
+
+const implementationB = new ConcrateImplementationB();
+const abstractionB = new Abstraction(implementationB);
+clientCodeBridge(abstractionB);
