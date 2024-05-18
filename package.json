@@ -1,17 +1,18 @@
 {
-  "name": "design-patterns-2024",
+  "name": "typescript",
   "version": "1.0.0",
-  "description": "# Herramientas",
-  "main": "index.js",
+  "description": "",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "ts-node main.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "random-words": "^2.0.1"
+  "devDependencies": {
+    "typescript": "5.4.2"
   },
-  "type": "module"
+  "dependencies": {
+    "ts-node": "10.9.2"
+  }
 }
