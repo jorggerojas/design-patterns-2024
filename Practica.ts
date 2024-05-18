@@ -218,5 +218,5 @@ function calcular(figura: FiguraGeometrica): void {
     console.log("Perímetro:", perimetro);
 }
 
-const fig:FiguraGeometrica = new rectangulo()
+const fig:FiguraGeometrica = new rectangulo(4, 7)
 
