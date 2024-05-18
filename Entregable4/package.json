@@ -1,0 +1,24 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "scripts": {
+    "singlerep": "ts-node solid/SingleRep.ts",
+    "openclose": "ts-node solid/OpenClose.ts",
+    "liskov": "ts-node solid/Liskov.ts",
+    "intsegreg": "ts-node solid/InterfaceSegregation.ts",
+    "dependinv": "ts-node solid/DependencyInv.ts",
+    "Shapestrategy": "ts-node exercisestrategyShapes"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
