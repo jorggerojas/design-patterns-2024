@@ -9,7 +9,8 @@
     "start": "npm run build && node main.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "Bridge": "npm run build && node Bridge.js",
-    "Adapter": "npm run build && node Adapter.js"
+    "Adapter": "npm run build && node Adapter.js",
+    "Proxy": "npm run build && node Proxy.js"
   },
   "keywords": [],
   "author": "",

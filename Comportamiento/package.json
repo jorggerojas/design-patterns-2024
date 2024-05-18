@@ -7,6 +7,7 @@
   "scripts": {
     "build": "npx tsc --build",
     "start": "npm run build && node Observer.js",
+    "memento": "npm run build && node Memento.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

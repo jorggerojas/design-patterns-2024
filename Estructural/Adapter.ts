@@ -39,3 +39,5 @@ console.log(`Adaptee ${adaptee.specificRequest()}`);
 
 const adapter = new Adapter(adaptee);
 clientCode(adapter);
+class Persona {
+}
